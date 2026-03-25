@@ -1,0 +1,160 @@
+.neuro-dashboard {
+  text-align: left;
+  padding: 24px;
+}
+
+.neuro-header {
+  margin-bottom: 20px;
+}
+
+.neuro-header h1 {
+  font-size: 28px;
+  margin: 0 0 6px 0;
+}
+
+.neuro-subtitle {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.neuro-form {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+  background: rgba(170, 59, 255, 0.05);
+  margin-bottom: 18px;
+}
+
+.neuro-form-row {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.neuro-label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 240px;
+}
+
+.neuro-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.neuro-error {
+  color: #d946ef;
+  font-size: 14px;
+  margin-top: 4px;
+  flex: 1 1 auto;
+}
+
+.neuro-fieldset {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 14px 10px 14px;
+}
+
+.neuro-fieldset legend {
+  padding: 0 8px;
+  opacity: 0.9;
+}
+
+.neuro-checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 18px;
+  margin-top: 6px;
+}
+
+.neuro-checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+  user-select: none;
+}
+
+.neuro-checkbox input {
+  margin-top: 2px;
+}
+
+.neuro-checkbox-label {
+  line-height: 1.25;
+}
+
+.neuro-results {
+  margin-top: 12px;
+}
+
+.neuro-loading {
+  opacity: 0.9;
+}
+
+.neuro-results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.neuro-split-row {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.neuro-result-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.neuro-result-card--wide {
+  grid-column: 1 / -1;
+}
+
+.neuro-result-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.neuro-result-value {
+  font-size: 22px;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+.neuro-result-footnote {
+  opacity: 0.85;
+  font-size: 13px;
+}
+
+.neuro-footnote {
+  margin: 12px 0 0;
+  opacity: 0.85;
+  font-size: 13px;
+}
+
+@media (max-width: 860px) {
+  .neuro-checkbox-grid {
+    grid-template-columns: 1fr;
+  }
+  .neuro-results-grid {
+    grid-template-columns: 1fr;
+  }
+  .neuro-split-row {
+    grid-template-columns: 1fr;
+  }
+}
+

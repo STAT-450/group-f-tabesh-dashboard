@@ -1,0 +1,133 @@
+{
+  "model_type": "Cox Proportional Hazards",
+  "coefficients_simple": {
+    "meningioma_locationSkull Base": -0.1642,
+    "meningioma_locationConvexity": 0.369,
+    "age": -0.0228,
+    "tumour_volume": -0.0095,
+    "meningioma_gradeHigh Grade (G2+)": -0.1489,
+    "genderFemale": 0.102,
+    "pre_asympotomaticYes": -0.0566,
+    "pre_headachesYes": -0.087,
+    "pre_seizureYes": -0.0764,
+    "pre_motor_sensoryYes": -0.4187,
+    "pre_visionYes": -0.0727,
+    "pre_cognition_languageYes": -0.0506,
+    "pre_coordinationYes": -0.0699,
+    "pre_cn_deficitsYes": -0.2886
+  },
+  "coefficients_detailed": [
+    {
+      "coef": -0.1642,
+      "exp(coef)": 0.8485,
+      "se(coef)": 0.139,
+      "z": -1.1817,
+      "Pr(>|z|)": 0.2373,
+      "_row": "meningioma_locationSkull Base"
+    },
+    {
+      "coef": 0.369,
+      "exp(coef)": 1.4463,
+      "se(coef)": 0.1475,
+      "z": 2.5013,
+      "Pr(>|z|)": 0.0124,
+      "_row": "meningioma_locationConvexity"
+    },
+    {
+      "coef": -0.0228,
+      "exp(coef)": 0.9775,
+      "se(coef)": 0.0044,
+      "z": -5.2093,
+      "Pr(>|z|)": 1.8957e-07,
+      "_row": "age"
+    },
+    {
+      "coef": -0.0095,
+      "exp(coef)": 0.9906,
+      "se(coef)": 0.0019,
+      "z": -5.0108,
+      "Pr(>|z|)": 5.4194e-07,
+      "_row": "tumour_volume"
+    },
+    {
+      "coef": -0.1489,
+      "exp(coef)": 0.8617,
+      "se(coef)": 0.1177,
+      "z": -1.2648,
+      "Pr(>|z|)": 0.206,
+      "_row": "meningioma_gradeHigh Grade (G2+)"
+    },
+    {
+      "coef": 0.102,
+      "exp(coef)": 1.1074,
+      "se(coef)": 0.1089,
+      "z": 0.9361,
+      "Pr(>|z|)": 0.3492,
+      "_row": "genderFemale"
+    },
+    {
+      "coef": -0.0566,
+      "exp(coef)": 0.9449,
+      "se(coef)": 0.1658,
+      "z": -0.3416,
+      "Pr(>|z|)": 0.7327,
+      "_row": "pre_asympotomaticYes"
+    },
+    {
+      "coef": -0.087,
+      "exp(coef)": 0.9167,
+      "se(coef)": 0.1348,
+      "z": -0.6453,
+      "Pr(>|z|)": 0.5187,
+      "_row": "pre_headachesYes"
+    },
+    {
+      "coef": -0.0764,
+      "exp(coef)": 0.9265,
+      "se(coef)": 0.1554,
+      "z": -0.4914,
+      "Pr(>|z|)": 0.6231,
+      "_row": "pre_seizureYes"
+    },
+    {
+      "coef": -0.4187,
+      "exp(coef)": 0.6579,
+      "se(coef)": 0.1493,
+      "z": -2.8047,
+      "Pr(>|z|)": 0.005,
+      "_row": "pre_motor_sensoryYes"
+    },
+    {
+      "coef": -0.0727,
+      "exp(coef)": 0.9299,
+      "se(coef)": 0.1253,
+      "z": -0.5801,
+      "Pr(>|z|)": 0.5618,
+      "_row": "pre_visionYes"
+    },
+    {
+      "coef": -0.0506,
+      "exp(coef)": 0.9507,
+      "se(coef)": 0.1581,
+      "z": -0.3201,
+      "Pr(>|z|)": 0.7489,
+      "_row": "pre_cognition_languageYes"
+    },
+    {
+      "coef": -0.0699,
+      "exp(coef)": 0.9324,
+      "se(coef)": 0.1623,
+      "z": -0.4308,
+      "Pr(>|z|)": 0.6666,
+      "_row": "pre_coordinationYes"
+    },
+    {
+      "coef": -0.2886,
+      "exp(coef)": 0.7493,
+      "se(coef)": 0.1731,
+      "z": -1.6677,
+      "Pr(>|z|)": 0.0954,
+      "_row": "pre_cn_deficitsYes"
+    }
+  ]
+}
